@@ -9,7 +9,7 @@ layout="wide"
 st.title("HR Attrition & Retention Analytics Dashboard")
 
 df = pd.read_csv(
-r"datasets\employee_attrition_prediction_output.csv"
+r"employee_attrition_prediction_output.csv"
 )
 
 st.subheader("Dataset Overview")
